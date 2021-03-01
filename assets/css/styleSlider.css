@@ -1,7 +1,11 @@
+
+
 .btn-group {
   position: relative;
   display: inline-block;
 }
+
+
 .btn-group .btn {
   cursor: pointer;
   float: left;
@@ -42,7 +46,11 @@
   float: left;
 }
 .slides .slide:nth-child(1) {
-  background: #c66;
+  /* background: #c66; */
+  background-image: url(../images/pre.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
 }
 .slides .slide:nth-child(2) {
   background: #acac39;
